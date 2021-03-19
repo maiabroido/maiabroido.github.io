@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="gallery1.css" />
+
+    <title>Gallery</title>
+  </head>
+  <body>
+    <div id="myNav" class="overlay">
+      <!-- Button to close the overlay navigation -->
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        >&times;</a>
+
+      <!-- Overlay content -->
+      <div class="overlay-content">
+        <a href="tryingStuff.html">Home</a>
+        <a href="about1.html">About</a>
+        <a href="gallery1.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+    <nav>
+      <div class="menu" onclick="openNav()">
+        <div class="menuIcon"></div>
+        <div class="menuIcon"></div>
+        <div class="menuIcon"></div>
+      </div>
+      <div class="name">Maia Broido</div>
+      <!--
+   <ul>
+     <li onclick="openNav()">Maia Broido</li>
+     </ul>
+  -->
+    </nav>
+    <div class="full-img">
+      <a href="#" class="prev"> < </a>
+      <img id="displayed-img" alt="" src="robin and maia 005.jpg" />
+      <a href="#" class="next"> > </a>
+    </div>
+    <div id="slideshow">
+      <a href="#">
+        <figure>
+          <img src="robin and maia 005.jpg" data-index="9" alt="" />
+        </figure>
+      </a>
+      <a href="#">
+        <figure>
+          <img src="robin and maia 012.jpg" alt="" />
+        </figure>
+      </a>
+      <a href="robin and maia 156.jpg">
+        <figure>
+          <img src="robin and maia 156.jpg" alt="" />
+        </figure>
+      </a>
+      <a href="robin and maia 017.jpg">
+        <figure>
+          <img src="robin and maia 017.jpg" alt="" />
+        </figure>
+      </a>
+      <a href="robin and maia 121.jpg">
+        <figure>
+          <img src="robin and maia 121.jpg" alt="" />
+        </figure>
+      </a>
+      <a href="robin and maia 020.jpg">
+        <figure>
+          <img src="robin and maia 020.jpg" alt="" />
+        </figure>
+      </a>
+      <a href="robin and maia 133.jpg">
+        <figure>
+          <img src="robin and maia 133.jpg" alt="" />
+        </figure>
+      </a>
+      <a href="robin and maia 015.jpg">
+        <figure>
+          <img src="robin and maia 015.jpg" alt="" />
+        </figure>
+      </a>
+
+    </div>
+    <script type="text/javascript" src="gallery1.js"></script>
+
+    <p class="p">
+      Demo by George Martsoukos.
+      <a
+        href="http://www.sitepoint.com/using-modern-css-to-build-a-responsive-image-grid/"
+        target="_blank"
+        >See article</a
+      >.
+    </p>
+  </body>
+</html>

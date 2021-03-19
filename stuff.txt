@@ -1,0 +1,47 @@
+<div id="wrapper">
+<div class="twoColumn">
+    <img src="violin parrot.jpg" />
+</div>
+<div class="twoColumn">
+    <p> This is my biography</p>
+</div>
+</div>
+
+
+  object-fit: contain;
+
+.contact
+  {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+  }
+  .twoColumn{
+      width: 49%;
+      float:left;
+  }
+.container {
+  width: 100%;
+}
+
+//
+<div class="bio">
+        <h6> This is my biography</h6>
+</div>
+
+<div class="container>"
+<div id="contact">
+  <h2>Contact</h2>
+  <form action=”/practice.html method=”post”>
+  <label for=”name”>Name</label>
+  <input type=”text” name=”username” placeholder="Please enter you name" pattern=”[a-zA-Z]>
+  <br>
+  <label for=”E-mail”>E-mail address</label>
+  <input type="text" name="E-mail" placeholder="Please enter your e-mail address">
+  <br>
+  <label for=”message”>Please enter your message</label>
+  <input style="height:200px;"  type="text" name="message" placeholder="Please enter your message">
+  <button>Submit</button>
+</div>
+</div>

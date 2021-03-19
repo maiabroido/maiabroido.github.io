@@ -1,0 +1,32 @@
+@media (orientation:portrait) {
+  .portait {
+    display: block;
+
+  }
+  .landscape {
+    display: none;
+  }
+  .name {
+    font-size: 4em;
+    width: 35%;
+  }
+  .slideshow-container {
+    max-width: 100%;
+  }
+}
+
+@media (orientation:landscape) {
+  .landscape {
+    display: block;
+  }
+  .portrait {
+    display: none;
+  }
+  .dot {
+    display: none;
+  }
+  .name {
+    width: 23%;
+  }
+
+}
