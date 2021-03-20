@@ -22,7 +22,7 @@ p {
     margin: 30px 0;
 }
 .image {
-    background: url('robin and maia 143.jpg') no-repeat fixed;
+    background: url('ROBIN AND MAIA 143.JPG') no-repeat fixed;
     background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -130,7 +130,7 @@ a:hover {
         @media (orientation: portrait) {
         .image {
             min-height: 1200px;
-            background: url('robin and maia 149.jpg');
+            background: url('ROBIN AND MAIA 149.JPG');
            background-size: 100%;
           }
           .name {
