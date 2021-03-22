@@ -44,6 +44,7 @@
 .text {
   color: #f2f2f2;
   font-size: 15px;
+  font-family: 'Noto Sans', sans-serif;
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
@@ -125,6 +126,7 @@
   padding: 8px;
   text-decoration: none;
   font-size: 36px;
+  font-family: 'Noto Sans', sans-serif;
   color: #818181;
   display: block; /* Display block instead of inline */
   transition: 0.3s; /* Transition effects on hover (color) */
@@ -171,6 +173,7 @@ div .menuIcon {
 .name {
   /*color: #BDBDBD;*/
   font-size: 2em;
+  font-family: 'Noto Sans', sans-serif;
   display: block;
   backdrop-filter: blur(5px);
 }
@@ -189,7 +192,7 @@ div .menuIcon {
 }
 /* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
 @media screen and (max-width: 450px) {
-  .overlay a {font-size: 20px}
+ /* .overlay a {font-size: 20px}*/
   .overlay .closebtn {
     font-size: 40px;
     top: 15px;
