@@ -140,5 +140,9 @@ a:hover {
         .content {
             height: 25%;
           }
+          .overlay a {
+             padding: 8px;
+              font-size: 36px;
+          }
 
         }
