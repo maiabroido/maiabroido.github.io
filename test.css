@@ -30,7 +30,7 @@
     display: none;
   }
   .name {
-    width: 23%;
+    max-width: 25%;
   }
 
 }
