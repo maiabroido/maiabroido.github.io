@@ -180,6 +180,15 @@ div .menuIcon {
   #displayed-img {
     max-width: 95%;
   }
+  .overlay a {
+  padding: 40px;
+  
+  font-size: 55px;
+}
+  .name {
+    font-size: 4em;
+    max-width: 35%;
+  }
 }
 @media (orientation: landscape) {
   #displayed-img {
