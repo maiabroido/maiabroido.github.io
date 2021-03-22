@@ -76,6 +76,7 @@ a:hover {
           padding: 8px;
           text-decoration: none;
           font-size: 36px;
+          font-family: 'Noto Sans', sans-serif;
           color: #818181;
           display: block; /* Display block instead of inline */
           transition: 0.3s; /* Transition effects on hover (color) */
@@ -122,6 +123,7 @@ a:hover {
         .name {
           color: #44;
           font-size: 2em;
+          font-family: 'Noto Sans', sans-serif;
           display: block;
           backdrop-filter: blur(5px);
           max-width: 15%;
