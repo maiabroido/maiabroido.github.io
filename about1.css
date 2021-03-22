@@ -137,7 +137,7 @@ a:hover {
           }
           .name {
             font-size: 4em;
-            width: 35%;
+            max-width: 35%;
           }
           .content {
             height: 50%;
