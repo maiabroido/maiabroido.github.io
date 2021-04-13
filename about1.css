@@ -136,8 +136,10 @@ a:hover {
            background-size: 100%;
           }
           .name {
-            font-size: 4em;
-            max-width: 40%;
+            font-size: 5em;
+            max-width: 50%;
+            float: right;
+            padding-right: 5%;
           }
           .content {
             height: 50%;
@@ -146,17 +148,23 @@ a:hover {
              padding: 40px;
               font-size: 55px;
           }
+          div .menuIcon {
+            width: 70px;
+            height: 15px;
+          }
         }
-        /*@media (orientation: landscape) {
-        .image {
+        @media (orientation: landscape) {
+        /*.image {
 
             background: url('robin and maia 143.jpg')
           }
 
-        }
+        }*/
 
-          .name {
-            font-size: 4em;
-            max-width: 35%;
-          }
+        .name {
+          max-width: 35%;
+          float: right;
+          padding-right: 5%;
+          font-size: 2em;
+        }
         }

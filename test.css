@@ -7,8 +7,10 @@
     display: none;
   }
   .name {
-    font-size: 4em;
-    max-width: 40%;
+    font-size: 5em;
+    max-width: 50%;
+    float: right;
+    padding-right: 5%;
   }
   .slideshow-container {
     max-width: 100%;
@@ -17,6 +19,13 @@
              padding: 40px;
               font-size: 55px;
           }
+    div .menuIcon {
+            width: 70px;
+            height: 15px;
+  }
+  .overlay .closebtn {
+    font-size: 100px;
+  }
 }
 
 @media (orientation:landscape) {
@@ -30,7 +39,10 @@
     display: none;
   }
   .name {
-    max-width: 25%;
+    max-width: 35%;
+    float: right;
+    padding-right: 5%;
+    font-size: 2em;
   }
 
 }
