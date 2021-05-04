@@ -38,3 +38,30 @@ function openNav() {
 function closeNav() {
   document.getElementById("myNav").style.width = "0%";
 }
+
+$(function(){
+  // Bind the swipeHandler callback function to the swipe event on div.box
+  //$( "div.mySlides" ).on( "swipe", swipeHandler );
+ 
+  $("div.mySlides.portrait").on("swiperight",function(event){
+    plusSlides (1, "portrait");
+  })
+
+  $("div.mySlides.portrait").on("swipeleft",function(event){
+    plusSlides (-1, "portrait");
+  })
+  
+  $("div.mySlides.landscape").on("swiperight",function(event){
+    plusSlides (1, "landscape");
+  })
+
+  $("div.mySlides.landscape").on("swipeleft",function(event){
+    plusSlides (-1, "landscape");
+  })
+  
+  // Callback function references the event target and adds the 'swipe' class to it
+  //function swipeHandler( event ){
+    /*$( event.target ).addClass( "swipe" );*/
+    //alert("test");
+  //}
+});
